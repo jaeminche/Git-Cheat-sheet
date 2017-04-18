@@ -18,6 +18,7 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The commits in the two branches get interwined in a branch. We represent it in the diagram followed by 'git log --graph --oneline branch(es)' in order to grasp the structure of the branches formed.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
