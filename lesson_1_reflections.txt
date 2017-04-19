@@ -17,7 +17,7 @@ docs does?
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    When changes over multiple files under a condition they share occur, you can save multiple files in one commit.
+    When changes over multiple files under one logical change they share occur, you can save multiple files in one commit.
 
 How can you use the commands git log and git diff to view the history of files?
 
@@ -31,3 +31,14 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     Use repositories at Github.com.
+
+
+Commands:
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
