@@ -1,9 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
-	A hidden .git directory gets created. You need to do this in order to create a repository.
+	A hidden .git directory gets created. You need to do this in order to create a repository including a staging area.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-	Staging area is a place where your commits stop by before they go to the repository.
+	Staging area is a place where your commits stop by before they go to the repository for you to choose which commits you would actually commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -11,15 +11,15 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-	It makes it easier for you to try some experiments.
+	Making branches makes it easier for you to try some experiments. You could use branches when you want to do that.
 
 How do the diagrams help you visualize the branch structure?
-	The diagrams help you visualie the branch structure.
+	The diagrams help you visualie the branch structure by using a command 'git log --graph --oneline branch1, branch2...'
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-	The commits in the two branches get interwined in a branch. We represent it in the diagram followed by 'git log --graph --oneline branch(es)' in order to grasp the structure of the branches formed.
+	The commits in the two branches get interwined in a branch with a 'tip' of the branch. We represent it in the diagram followed by 'git log --graph --oneline branch(es)' in order to grasp the structure of the branches formed.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-	Automatic merging is quite handy and quick, but doing so inevitably causes conflicts in commits.
+	Automatic merging is quite handy and quick, but doing so inevitably may cause conflicts in commits. Having said that, always doing merges manually would prevent that but would make the work inefficient.
