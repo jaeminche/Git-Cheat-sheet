@@ -27,3 +27,12 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+
+
+commands:
+
+git remote - to view what remote 
+git remote -v - to view verbosely
+git remote add origin 'link' - to add a remote named 'origin' with a 'link' on Github
+git push origin master - to push a LOCAL master branch to origin with the link on Github
+git pull origin master - to pull a master branch on origin on Github to LOCAL origin 
