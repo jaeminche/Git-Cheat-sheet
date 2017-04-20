@@ -26,16 +26,16 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When collaborating, only the ones confirmed go to the master branch. Keeping that principle in mind, you would better make changes in a separate branch, get it confirmed by others, and then merge the branch into master branch. That way, people can lessen any confusion during collaborating.
 
 
 commands:
 
 git remote | to view what remote 
 git remote -v | to view verbosely
-git remote add origin 'link' | to add a remote named 'origin' with a 'link' on Github
-git push origin master | to push a LOCAL master branch to origin with the link on Github
-git pull origin master | to pull a master branch on origin on Github to LOCAL origin
+git remote add origin 'link' | to add a remote named 'origin', or a 'link' on Github
+git push origin master | to push a LOCAL master branch to origin, or the link on Github
+git pull origin master | to pull a master branch on Github to origin(local)
 git clone | git remote add + git pull (while ... see below)
 git pull origin master | git fetch origin 
                        + git merge master origin/master
